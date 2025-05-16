@@ -1,29 +1,42 @@
 import React from "react";
+import chat from "../assets/chat.png";
+import bar from "../assets/bar.png";
+import store from "../assets/e-commerce.png";
 
 const projects = [
   {
     title: "Чат Приложение",
-    image: "/projects/chat-app.jpg",
-    description: "Реално време чат платформа с поддръжка на групови и лични съобщения, аватари и известия.",
+    image: chat,
+    description:
+      "Реално време чат платформа с поддръжка на групови и лични съобщения, аватари и известия.",
     tech: ["React", "Node.js", "Socket.io", "MongoDB", "Tailwind CSS"],
-    demo: "https://chat-demo.com",
-    github: "https://github.com/your/chat-app",
+    demo: "https://chat-app-9p6u.onrender.com/login",
+    github: "https://github.com/Georgi1023Y/chat-app.git",
   },
   {
     title: "Онлайн Магазин",
-    image: "/projects/ecommerce.jpg",
-    description: "Модерен e-commerce сайт с количка, плащания и админ панел за управление на продукти.",
-    tech: ["React", "Redux", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind CSS"],
-    demo: "https://store-demo.com",
-    github: "https://github.com/your/ecommerce-store",
+    image: store,
+    description:
+      "Модерен e-commerce сайт с количка, плащания и админ панел за управление на продукти.",
+    tech: [
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Tailwind CSS",
+    ],
+    demo: "",
+    github: "",
   },
   {
     title: "Уебсайт За Бар",
-    image: "/projects/bar-center.jpg",
+    image: bar,
     description: "Уебсайт за бар с представяне на меню и фотогалерия.",
     tech: ["React", "Tailwind CSS", "EmailJS"],
-    demo: "https://barcenter-demo.com",
-    github: "https://github.com/your/bar-center",
+    demo: "https://bar-center-menu.vercel.app/",
+    github: "https://github.com/Georgi1023Y/bar-center-menu",
   },
 ];
 
