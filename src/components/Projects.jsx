@@ -5,19 +5,19 @@ import store from "../assets/e-commerce.png";
 
 const projects = [
   {
-    title: "Чат Приложение",
+    title: "Chat Application",
     image: chat,
     description:
-      "Реално време чат платформа с поддръжка на групови и лични съобщения, аватари и известия.",
+      "Real-time chat platform with support for group and private messaging, avatars and notifications.",
     tech: ["React", "Node.js", "Socket.io", "MongoDB", "Tailwind CSS"],
     demo: "https://chat-app-9p6u.onrender.com/login",
     github: "https://github.com/Georgi1023Y/chat-app.git",
   },
   {
-    title: "Онлайн Магазин",
+    title: "E-commerce Store",
     image: store,
     description:
-      "Модерен e-commerce сайт с количка, плащания и админ панел за управление на продукти.",
+      "Modern e-commerce site with shopping cart, payments and admin panel for product management.",
     tech: [
       "React",
       "Redux",
@@ -31,9 +31,9 @@ const projects = [
     github: "",
   },
   {
-    title: "Уебсайт За Бар",
+    title: "Website For Bar",
     image: bar,
-    description: "Уебсайт за бар с представяне на меню и фотогалерия.",
+    description: "Website for bar featuring menu and photo gallery.",
     tech: ["React", "Tailwind CSS", "EmailJS"],
     demo: "https://bar-center-menu.vercel.app/",
     github: "https://github.com/Georgi1023Y/bar-center-menu",
@@ -47,7 +47,7 @@ const Projects = () => {
       className="w-full py-12 px-4 flex flex-col items-center bg-gradient-to-br from-[#232526] to-[#414345]"
     >
       <h2 className="text-3xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">
-        Проекти
+        Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
         {projects.map((project) => (
@@ -84,7 +84,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="flex-1 text-center bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-3 text-sm sm:text-base rounded-full transition-colors duration-150"
                 >
-                  Виж Демо
+                  See Demo
                 </a>
                 <a
                   href={project.github}

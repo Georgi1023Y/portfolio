@@ -2,25 +2,22 @@ import React from "react";
 
 const experiences = [
   {
-    title: "Full-Stack Разработчик",
-    company: "Tech Solutions Ltd.",
+    title: "Junior Full Stack Developer",
     date: "2022 - 2024",
     description:
-      "Разработване на уеб приложения с React, Node.js и MongoDB. Водене на малък екип и внедряване на иновативни решения за клиенти.",
+      "Develop web applications with React, Node.js and MongoDB. Leading a small team and implementing innovative solutions for clients.",
   },
   {
-    title: "Frontend Разработчик",
-    company: "Web Creative Studio",
+    title: "Frontend Developer",
     date: "2020 - 2022",
     description:
-      "Изграждане на модерни и адаптивни потребителски интерфейси с React и Tailwind CSS. Оптимизация на UX/UI и работа в Agile среда.",
+      "Building modern and responsive user interfaces with React and Tailwind CSS. UX/UI optimization and working in an Agile environment.",
   },
   {
-    title: "Стажант Програмист",
-    company: "StartIT",
+    title: "Trainee Programmer",
     date: "2019 - 2020",
     description:
-      "Участие в разработката на малки проекти, поддръжка и тестване на уеб приложения. Натрупване на практически опит с JavaScript и Git.",
+      "Involvement in small project development, maintenance and testing of web applications. Gain hands-on experience with JavaScript and Git.",
   },
 ];
 
@@ -33,7 +30,7 @@ const Experience = () => {
       className="w-full py-12 px-4 flex flex-col items-center bg-[#232526]"
     >
       <h2 className="text-3xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">
-        Опит
+        Experience
       </h2>
       <div className="relative max-w-3xl w-full">
         <div className="absolute left-1/2 top-0 h-full w-1 -translate-x-1/2 bg-gradient-to-b from-cyan-400 to-pink-400 opacity-40 z-0" />

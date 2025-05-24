@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text-gray-400 text-sm">
-        2025 Георги Беширов. Всички права запазени.
+        2025 Georgi Beshirov. All rights reserved.
       </div>
     </footer>
   );

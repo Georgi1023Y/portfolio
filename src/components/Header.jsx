@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const navLinks = [
-  { name: "Начало", href: "#home" },
-  { name: "За мен", href: "#about" },
-  { name: "Проекти", href: "#projects" },
-  { name: "Контакт", href: "#contact" },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
 ];
 
 const Header = () => {
@@ -27,7 +27,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-[#232526]/90 backdrop-blur-md shadow-sm">
       <nav className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
         <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-pink-400 text-transparent bg-clip-text select-none">
-          Георги Беширов
+          Georgi Beshirov
         </span>
         <button
           className="md:hidden text-gray-200 focus:outline-none"

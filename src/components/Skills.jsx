@@ -4,7 +4,7 @@ import { SiTailwindcss, SiExpress, SiMongodb, SiJavascript } from "react-icons/s
 
 const categories = [
   {
-    title: "Фронтенд",
+    title: "Frontend",
     items: [
       { name: "React", icon: <FaReact className="text-cyan-400" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
@@ -14,7 +14,7 @@ const categories = [
     ],
   },
   {
-    title: "Бекенд",
+    title: "Backend",
     items: [
       { name: "Node.js", icon: <FaNodeJs className="text-green-400" /> },
       { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
@@ -22,7 +22,7 @@ const categories = [
     ],
   },
   {
-    title: "Инструменти",
+    title: "Tools",
     items: [
       { name: "Git", icon: <FaGitAlt className="text-orange-400" /> },
       { name: "Docker", icon: <FaDocker className="text-blue-300" /> },
@@ -34,7 +34,7 @@ const Skills = () => {
   return (
     <section className="w-full py-12 px-4 bg-gradient-to-br from-[#232526] to-[#414345] flex flex-col items-center">
       <h2 className="text-3xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">
-        Умения
+        Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl">
         {categories.map((cat) => (

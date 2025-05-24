@@ -28,17 +28,17 @@ const AboutMe = () => {
         </div>
         <div className="flex-1">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-cyan-400">
-            За мен
+            About Me
           </h2>
           <p className="text-base sm:text-lg text-gray-200 mb-4">
-            Здравейте! Аз съм Георги Беширов, Full-Stack разработчик с опит в
-            създаването на модерни уеб приложения. Обичам да комбинирам
-            креативност с технологии, за да предоставям иновативни решения и
-            отлично потребителско изживяване.
+            Hello! I am Georgi Beshirov, Full-Stack Developer with experience in
+            creating modern web applications. I like to combine creativity with
+            technology to provide innovative solutions and excellent user
+            experience.
           </p>
           <div className="mb-4">
             <span className="font-semibold text-pink-400">
-              Технологии, които използвам:
+              Technologies I use:
             </span>
             <ul className="flex flex-wrap gap-2 mt-2">
               {technologies.map((tech) => (
@@ -52,9 +52,9 @@ const AboutMe = () => {
             </ul>
           </div>
           <div>
-            <span className="font-semibold text-cyan-400">Любопитен факт:</span>
+            <span className="font-semibold text-cyan-400">Curious fact:</span>
             <span className="ml-2 text-gray-100">
-              В свободното си време обичам да пътувам и да снимам природата.
+              In my free time I like to travel.
             </span>
           </div>
         </div>

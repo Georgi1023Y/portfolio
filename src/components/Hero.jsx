@@ -8,21 +8,21 @@ const Hero = () => {
       id="home"
     >
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-transparent bg-clip-text">
-        Георги Беширов
+        Georgi Beshirov
       </h1>
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-400 mb-6">
-        Full-Stack Разработчик
+        Junior Full Stack Developer
       </h2>
       <p className="text-base sm:text-lg md:text-xl max-w-xl mx-auto mb-8 text-gray-200">
-        Създавам стабилни и мащабируеми уеб приложения с внимание към чистия
-        код, модерния дизайн и безпроблемното потребителско изживяване. Нека
-        създадем нещо невероятно заедно!
+        I create robust and scalable web applications with attention to clean
+        code, modern design and seamless user experience. Let create something
+        amazing together!
       </p>
       <a
         href="#projects"
         className="inline-block bg-gradient-to-r from-cyan-400 to-pink-400 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:scale-105 transition-transform mb-8"
       >
-        Виж Проектите
+        See Projects
       </a>
       <div className="flex gap-8 mt-2 justify-center">
         <a
