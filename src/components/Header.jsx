@@ -29,26 +29,49 @@ const Header = () => {
         <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-pink-400 text-transparent bg-clip-text select-none">
           Georgi Beshirov
         </span>
-        <button
-          className="md:hidden text-gray-200 focus:outline-none"
-          onClick={() => setOpen((prev) => !prev)}
-          aria-label="Меню"
-        >
-          <svg
-            className="w-7 h-7"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+        {open ? (
+          <button
+            className="md:hidden text-gray-200 focus:outline-none"
+            onClick={() => setOpen((prev) => !prev)}
+            aria-label="Затвори меню"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
+            <svg
+              className="w-7 h-7"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        ) : (
+          <button
+            className="md:hidden text-gray-200 focus:outline-none"
+            onClick={() => setOpen((prev) => !prev)}
+            aria-label="Меню"
+          >
+            <svg
+              className="w-7 h-7"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        )}
 
         <ul className="hidden md:flex gap-6">
           {navLinks.map((link) => (

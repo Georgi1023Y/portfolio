@@ -7,7 +7,7 @@ const Hero = () => {
       className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-[#232526] to-[#414345] text-gray-100 px-4 text-center"
       id="home"
     >
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-transparent bg-clip-text">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-2 bg-gradient-to-r from-cyan-400 to-pink-400 text-transparent bg-clip-text py-5">
         Georgi Beshirov
       </h1>
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-400 mb-6">
