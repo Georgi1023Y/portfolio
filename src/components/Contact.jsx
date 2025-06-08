@@ -9,7 +9,7 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const notify = () => toast.success("Съобщението ви беше изпратено");
+  const notify = () => toast.success("Your message was sent successfully");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,6 +25,7 @@ const Contact = () => {
       ]);
 
     if (error) {
+      toast.error("An error occurred");
       setError("An error occurred while submitting the form.");
       console.error(error);
     } else {

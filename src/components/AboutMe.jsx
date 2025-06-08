@@ -23,7 +23,7 @@ const AboutMe = () => {
           <img
             src={me}
             alt="Profile picture"
-            className="w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full border-4 border-cyan-400 dark:border-pink-400 shadow-lg object-cover bg-[#232526] dark:bg-white"
+            className="w-44 h-44 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full border-4 border-cyan-400 dark:border-pink-400 shadow-lg object-cover bg-[#232526] dark:bg-white"
           />
         </div>
         <div className="flex-1">
