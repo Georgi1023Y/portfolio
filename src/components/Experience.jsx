@@ -21,19 +21,19 @@ const experiences = [
   },
 ];
 
-const accentColor = "bg-gradient-to-r from-cyan-400 to-pink-400";
+const accentColor = "bg-gradient-to-r from-cyan-400 to-pink-400 dark:from-pink-400 dark:to-cyan-400";
 
 const Experience = () => {
   return (
     <section
       id="experience"
-      className="w-full py-12 px-4 flex flex-col items-center bg-[#232526]"
+      className="w-full py-12 px-4 flex flex-col items-center bg-[#232526] dark:bg-white"
     >
-      <h2 className="text-3xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">
+      <h2 className="text-3xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400 dark:from-pink-400 dark:to-cyan-400">
         Experience
       </h2>
       <div className="relative max-w-3xl w-full">
-        <div className="absolute left-1/2 top-0 h-full w-1 -translate-x-1/2 bg-gradient-to-b from-cyan-400 to-pink-400 opacity-40 z-0" />
+        <div className="absolute left-1/2 top-0 h-full w-1 -translate-x-1/2 bg-gradient-to-b from-cyan-400 to-pink-400 dark:from-pink-400 dark:to-cyan-400 opacity-40 z-0" />
         <ul className="space-y-12">
           {experiences.map((exp, idx) => (
             <li
@@ -45,22 +45,22 @@ const Experience = () => {
               }`}
             >
               <span
-                className={`hidden md:block absolute left-1/2 -translate-x-1/2 w-6 h-6 rounded-full border-4 border-white ${accentColor} z-10`}
+                className={`hidden md:block absolute left-1/2 -translate-x-1/2 w-6 h-6 rounded-full border-4 border-white dark:border-gray-900 ${accentColor} z-10`}
                 style={{ top: 24 }}
               />
               <div
-                className={`bg-[#2d2f38] rounded-xl shadow-md p-6 w-full md:w-1/2 border border-[#383a47] z-10 ${
+                className={`bg-[#2d2f38] dark:bg-white/80 rounded-xl shadow-md p-6 w-full md:w-1/2 border border-[#383a47] dark:border-gray-200 z-10 ${
                   idx % 2 === 0 ? "md:mr-12" : "md:ml-12"
                 }`}
               >
-                <h3 className="text-xl font-semibold text-cyan-200 mb-1">
+                <h3 className="text-xl font-semibold text-cyan-200 dark:text-gray-800 mb-1">
                   {exp.title}
                 </h3>
-                <div className="text-pink-300 font-medium mb-1">
+                <div className="text-pink-300 dark:text-cyan-400 font-medium mb-1">
                   {exp.company}
                 </div>
-                <div className="text-sm text-gray-400 mb-3">{exp.date}</div>
-                <p className="text-gray-200 text-base">{exp.description}</p>
+                <div className="text-sm text-gray-400 dark:text-gray-600 mb-3">{exp.date}</div>
+                <p className="text-gray-200 dark:text-gray-700 text-base">{exp.description}</p>
               </div>
             </li>
           ))}

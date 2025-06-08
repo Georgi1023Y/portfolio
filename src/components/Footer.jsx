@@ -3,13 +3,13 @@ import { FaGithub, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#232526] py-6 flex flex-col items-center justify-center text-center">
+    <footer className="w-full bg-[#232526] dark:bg-white py-6 flex flex-col items-center justify-center text-center">
       <div className="flex gap-6 mb-3">
         <a
           href="https://github.com/Georgi1023Y"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-cyan-400 text-2xl transition-colors"
+          className="text-gray-300 dark:text-gray-700 hover:text-cyan-400 dark:hover:text-pink-400 text-2xl transition-colors"
           aria-label="GitHub"
         >
           <FaGithub />
@@ -18,13 +18,13 @@ const Footer = () => {
           href="https://www.instagram.com/georgiyuliqnov/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-cyan-400 text-2xl transition-colors"
+          className="text-gray-300 dark:text-gray-700 hover:text-cyan-400 dark:hover:text-pink-400 text-2xl transition-colors"
           aria-label="LinkedIn"
         >
           <FaInstagram />
         </a>
       </div>
-      <div className="text-gray-400 text-sm">
+      <div className="text-gray-400 dark:text-gray-600 text-sm">
         2025 Georgi Beshirov. All rights reserved.
       </div>
     </footer>
